@@ -1,0 +1,30 @@
+$TTL 1W
+
+@       IN SOA  ns.stolarek.org.pl. root.stolarek.org.pl. (
+        2026070901      ; serial
+        3h              ; refresh
+        1h              ; retry
+        1w              ; expiry
+        1d )            ; minimum
+
+        IN NS   ns.stolarek.org.pl.
+        IN MX   0 mail.stolarek.org.pl.
+
+; ---------- Infrastructure ------------
+
+ns              IN A    192.168.0.103
+mail            IN A    192.168.0.103
+lenovo-workstation           IN A    192.168.0.103
+
+registry        IN A    192.168.0.116
+centos7         IN A    192.168.0.116
+
+;------------Remote Server Management---
+
+ibm-imm     IN A    192.168.10.5
+hp-ilo      IN A    192.168.10.6
+
+; ---------- Delegation ----------------
+
+sno             IN NS   ns.stolarek.org.pl.
+sno2            IN NS   ns.stolarek.org.pl.

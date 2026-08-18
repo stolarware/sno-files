@@ -1,0 +1,24 @@
+$TTL 1W
+@	IN SOA	ns.stolarek.org.pl.	root (
+	2026050401	; serial
+	3h		; refresh
+	1h		; retry
+	1w		; expiry
+	1d )		; minimum
+  
+				IN MX	0 mail.stolarek.org.pl.
+				IN NS	ns.stolarek.org.pl.
+;
+;
+ns					IN A	192.168.0.103
+mail					IN A    192.168.0.103
+t43p					IN A    192.168.0.103
+api.sno					IN A	192.168.0.214
+api-int.sno				IN A	192.168.0.214
+sno.sno					IN A 	192.168.0.214
+*.apps.sno				IN A    192.168.0.214
+centos7					IN A    192.168.0.116
+; --------------SNO2-------------------------
+
+;EOF
+
