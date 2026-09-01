@@ -1,7 +1,7 @@
 $TTL 1W
 
 @       IN SOA  ns.stolarek.org.pl. root.stolarek.org.pl. (
-        2026070901      ; serial
+        2026083001      ; serial
         3h              ; refresh
         1h              ; retry
         1w              ; expiry
@@ -10,10 +10,16 @@ $TTL 1W
         IN NS   ns.stolarek.org.pl.
 
 103     IN PTR  ns.stolarek.org.pl.
+104	IN PTR  t43p.stolarek.org.pl.
+105     IN PTR  imac.stolarek.org.pl.
+114     IN PTR  silkworm.stolarek.org.pl.
+115	IN PTR	storage.stolarek.org.pl.
 116     IN PTR  centos7.stolarek.org.pl.
+220     IN PTR  ovirt.stolarek.org.pl.
 
 214     IN PTR  sno.sno.stolarek.org.pl.
 215     IN PTR  sno2.sno2.stolarek.org.pl.
+216	IN PTR  sno3.sno3.stolarek.org.pl.
 
 ; OpenShift nie wymaga PTR dla api/api-int ani *.apps.
 ; PTR dla wildcard nie istnieje.
