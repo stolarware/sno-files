@@ -12,6 +12,8 @@ $TTL 1W
 103     IN PTR  ns.stolarek.org.pl.
 104	IN PTR  t43p.stolarek.org.pl.
 105     IN PTR  imac.stolarek.org.pl.
+112	IN PTR  dellik.stolarek.org.pl.
+113	IN PTR  kloc.stolarek.org.pl.
 114     IN PTR  silkworm.stolarek.org.pl.
 115	IN PTR	storage.stolarek.org.pl.
 116     IN PTR  centos7.stolarek.org.pl.
